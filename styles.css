@@ -122,5 +122,16 @@ section {
 .section-heading {
     text-align: center;
     margin: 0.5rem;
-    
+
+}
+
+footer > ul >  li {
+padding : 0.5rem;
+display:inlne;
+}
+
+footer > ul >  li> .footer-link {
+    text-decoration: none;
+    padding:1rem;
+    color: var(--primary-color);
 }
