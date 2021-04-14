@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* margin: 0; */
+     margin: 0; 
 }
 
 hr {
@@ -66,7 +66,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius: 1rem 0 ;
+    border-radius: 1rem 1rem 0 0 ;
 }
 
 .nav-brand {
@@ -125,13 +125,15 @@ section {
 
 }
 
-footer > ul >  li {
-padding : 0.5rem;
-display:inlne;
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    border-radius:  0 0 1rem 1rem ;
 }
 
-footer > ul >  li> .footer-link {
+.footer a {
     text-decoration: none;
-    padding:1rem;
-    color: var(--primary-color);
+    color: white;
+    font-weight: bold;
 }
