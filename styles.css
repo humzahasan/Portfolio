@@ -12,16 +12,13 @@ hr {
 :root {
     --primary-color : #EF4444;
     --secondary-color: #B91C1C;
+    --light-color: #FCA5A5
 }
 
 .container {
     /* background-color: #B91C1C; */
     margin: 0 0;
     padding: 2rem 1rem;
-}
-
-.navigator {
-    color: #EF4444;
 }
 
 
@@ -86,4 +83,40 @@ hr {
 
 .navigation a:hover{
     font-weight: bold;
+}
+
+
+.hero {
+    padding : 2rem
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    color: gray;
+    text-align: center;
+}
+
+section {
+    padding: 1rem
+}
+
+.section-dark {
+    background-color: var(--light-color);
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    color: var(--secondary-color) ;
+}
+
+.section-white {
+    color: var(--primary-color);
+    background-color: white;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid var(--secondary-color);
 }
