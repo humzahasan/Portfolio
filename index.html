@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Component Library</title>
   </head>
   <body>
@@ -15,6 +16,8 @@
     <h1>This is the biggest heading</h1>
     <h2>The next big heading</h2>
     <p>This is how normal paragraphs will look</p>
+    <p>This is how <strong> bold paragraphs</strong> will look</p>
+
     <small>This is for relatively smaller text</small>
 
     <hr />
@@ -22,17 +25,27 @@
     <h2>@container</h2>
 
     <h3>Fluid container</h3>
-    <div>This container runs from one end to the other end.</div>
+    <div class="container">
+      This container runs from one end to the other end.This container runs from
+      one end to the other end.This container runs from one end to the other
+      end.This container runs from one end to the other end.This container runs
+      from one end to the other end.This container runs from one end to the
+      other end.This container runs from one end to the other end.This container
+      runs from one end to the other end.This container runs from one end to the
+      other end.
+    </div>
 
     <h3>Center container</h3>
-    <div>This container is centered with same width at either end</div>
+    <div class="centered-container">
+      This container is centered with same width at either end
+    </div>
 
     <hr />
 
     <h2>@links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a class="primary-link" href="/">Primary Link</a>
+    <a class="secondary-link" href="/">Secondary Link</a>
 
     <hr />
 
@@ -40,7 +53,7 @@
 
     <h3>Ordered list</h3>
 
-    <ol>
+    <ol class="list-non-bullet">
       <li>Milk</li>
       <li>Egg</li>
       <li>Bread</li>
@@ -48,17 +61,17 @@
 
     <h3>Unordered list</h3>
 
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
+    <ul class="list-non-bullet ">
+      <li class="list-inline">Item 1</li>
+      <li class="list-inline">Item 2</li>
+      <li class="list-inline">Item 3</li>
     </ul>
 
     <hr />
 
     <h2>@nav</h2>
 
-    <nav>
+    <nav class="navigator container">
       <ul>
         <a href="/">Home</a>
         <a href="/">Product</a>
