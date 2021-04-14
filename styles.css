@@ -66,7 +66,8 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-radius: 1rem 1rem 0 0 ;
+    
+    border-bottom-left-radius: 1rem;
 }
 
 .nav-brand {
@@ -80,6 +81,12 @@ hr {
     color: white;
     text-decoration: none;
 }
+
+
+.navigation  .link-active {
+    font-weight: bold;
+}
+
 
 .navigation a:hover{
     font-weight: bold;
@@ -102,8 +109,13 @@ hr {
 }
 
 section {
-    padding: 1rem
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 1.5rem;
 }
+
 
 .section-dark {
     background-color: var(--light-color);
@@ -125,15 +137,18 @@ section {
 
 }
 
+
 footer {
     background-color: var(--primary-color);
     color: white;
     padding: 2rem;
     border-radius:  0 0 1rem 1rem ;
+    text-align: center;
 }
 
 .footer a {
     text-decoration: none;
+    
     color: white;
     font-weight: bold;
 }
